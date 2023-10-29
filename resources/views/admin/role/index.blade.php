@@ -42,34 +42,8 @@
                 <div class="modal-body">
                     <form class="custom-validation" action="#" novalidate="">
                         <div class="mb-3">
-                            <label for="nama">Nama</label>
+                            <label for="nama">Nama Role</label>
                             <input type="text" class="form-control" id="nama" required="" placeholder="Masukkan nama">
-                        </div>
-                        <div class="mb-3">
-                            <label for="email">E-Mail</label>
-                            <input type="email" class="form-control" id="email" required="" parsley-type="email" placeholder="Masukkan alamat email">
-                        </div>
-                        <div class="mb-3">
-                            <label for="role">Role</label>
-                            <select class="form-control select2" id="role">
-                                <option value="1">Administrator</option>
-                                <option value="2">Petugas</option>
-                                <option value="3">Warga</option>
-                            </select>
-                        </div>
-                        <div class="mb-3">
-                            <label for="role">Admin?</label>
-                            <select class="form-control select2" id="role">
-                                <option value="1">Administrator</option>
-                                <option value="2">Petugas</option>
-                            </select>
-                        </div>
-                        <div class="mb-3">
-                            <label for="role">Status</label>
-                            <select class="form-control select2" id="role">
-                                <option value="1">Administrator</option>
-                                <option value="2">Petugas</option>
-                            </select>
                         </div>
                     </form>
                 </div>
